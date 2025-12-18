@@ -1,5 +1,5 @@
 package core;
 
-interface IFabriqueModule {
+public interface IFabriqueModule {
     Object creerEntite(String type);
 }

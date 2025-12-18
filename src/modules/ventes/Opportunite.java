@@ -4,7 +4,7 @@ import core.IObservateur;
 import java.util.ArrayList;
 import java.util.List;
 
-class Opportunite {
+public class Opportunite {
     private String nom;
     private double montant;
     private IEtatOpportunite etat;

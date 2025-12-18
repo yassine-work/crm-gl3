@@ -1,5 +1,5 @@
 package core;
 
-interface IObservateur {
+public interface IObservateur {
     void mettreAJour(String message);
 }

@@ -1,5 +1,5 @@
 package modules.ventes;
 
-interface IEtatOpportunite {
+public interface IEtatOpportunite {
     void traiter(Opportunite opt);
 }

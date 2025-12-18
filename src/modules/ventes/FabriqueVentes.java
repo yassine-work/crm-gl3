@@ -2,7 +2,7 @@ package modules.ventes;
 
 import core.IFabriqueModule;
 
-class FabriqueVentes implements IFabriqueModule {
+public class FabriqueVentes implements IFabriqueModule {
     @Override
     public Object creerEntite(String type) {
         if (type.equalsIgnoreCase("Opportunite")) {

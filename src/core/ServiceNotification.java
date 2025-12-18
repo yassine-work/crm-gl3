@@ -1,6 +1,6 @@
 package core;
 
-class ServiceNotification implements IObservateur {
+public class ServiceNotification implements IObservateur {
     private String nomService;
 
     public ServiceNotification(String nom) {
